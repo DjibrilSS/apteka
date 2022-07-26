@@ -8,7 +8,7 @@ const drugSchema = mongoose.Schema({
     ref: "category",
   },
   price: {
-    type: String,
+    type: Number,
   },
   needRecipe: {
     type: Boolean,
